@@ -49,11 +49,11 @@ const Methodology: React.FC = () => {
               </span>
             </div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold mb-6">
-              Metodologia <GradientText>Triad</GradientText> — Aprenda, Implemente, Escale
+              Como Funciona Nossa <GradientText>Metodologia</GradientText>
             </h2>
             <p className="text-xl text-white/80 max-w-3xl mx-auto">
-              Nossa metodologia única combina teoria, prática intensiva e mentoria personalizada
-              para você dominar IA e automação de forma definitiva.
+              Um processo comprovado que garante implementação rápida e resultados mensuráveis
+              para transformar sua operação com inteligência artificial.
             </p>
           </div>
           
@@ -64,48 +64,48 @@ const Methodology: React.FC = () => {
                 <MethodologyStep
                   number="01"
                   icon={<Target className="w-8 h-8" />}
-                  title="Fundamentos e Estratégia"
-                  description="Base sólida em IA e identificação de oportunidades no seu negócio."
+                  title="Análise e Diagnóstico"
+                  description="Entendemos profundamente seu negócio, processos e dores para identificar as melhores oportunidades."
                   features={[
-                    "Conceitos essenciais de IA",
-                    "Ferramentas e plataformas",
-                    "Mapeamento de oportunidades"
+                    "Reunião de descoberta",
+                    "Mapeamento de processos",
+                    "Identificação de gargalos"
                   ]}
                 />
                 
                 <MethodologyStep
                   number="02"
                   icon={<Lightbulb className="w-8 h-8" />}
-                  title="Projetos Práticos"
-                  description="Construção hands-on de soluções reais de automação e IA."
+                  title="Desenvolvimento da Solução"
+                  description="Criamos o agente de IA personalizado com todas as integrações necessárias."
                   features={[
-                    "Chatbots inteligentes",
-                    "Workflows automatizados",
-                    "Integrações avançadas"
+                    "Desenvolvimento do agente",
+                    "Integrações com sistemas",
+                    "Personalização completa"
                   ]}
                 />
                 
                 <MethodologyStep
                   number="03"
                   icon={<Rocket className="w-8 h-8" />}
-                  title="Implementação no Seu Negócio"
-                  description="Aplicação prática das soluções no seu negócio real."
+                  title="Testes e Ajustes"
+                  description="Testamos exaustivamente em ambiente controlado antes do lançamento."
                   features={[
-                    "Projeto personalizado",
-                    "Mentoria individual",
-                    "Suporte técnico"
+                    "Testes de funcionalidade",
+                    "Simulações reais",
+                    "Ajustes finos"
                   ]}
                 />
                 
                 <MethodologyStep
                   number="04"
                   icon={<Gauge className="w-8 h-8" />}
-                  title="Escalação e Otimização"
-                  description="Estratégias para escalar suas automações e maximizar resultados."
+                  title="Go-Live e Otimização"
+                  description="Lançamos a solução e acompanhamos para garantir resultados."
                   features={[
-                    "Análise de métricas",
-                    "Otimização contínua",
-                    "Novas oportunidades"
+                    "Treinamento da equipe",
+                    "Lançamento gradual",
+                    "Monitoramento contínuo"
                   ]}
                 />
               </div>
@@ -117,7 +117,7 @@ const Methodology: React.FC = () => {
                 className="group inline-flex items-center gap-2 px-6 py-3 rounded-full bg-dark-800/50 border border-dark-700/50 hover:border-primary-500/30 transition-all duration-300"
               >
                 <span className="text-white/90 group-hover:text-white transition-colors">
-                  Saiba como funciona o programa completo
+                  Conheça nossa metodologia em detalhes
                 </span>
                 <ArrowRight className="w-4 h-4 text-primary-400 group-hover:translate-x-1 transition-transform" />
               </a>

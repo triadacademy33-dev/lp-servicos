@@ -6,14 +6,14 @@ import Marquee from '../ui/Marquee';
 import { ArrowRight, Bot, Brain, Zap } from 'lucide-react';
 
 const benefitItems = [
-  "Aprenda a criar agentes de IA do zero",
-  "Domine automação com ferramentas No-Code",
-  "Implemente chatbots inteligentes",
-  "Integre múltiplas plataformas",
-  "Construa workflows automatizados",
-  "Otimize processos comerciais",
-  "Crie dashboards e relatórios automatizados",
-  "Escale seu negócio com eficiência"
+  "Atendimento automatizado 24/7",
+  "Integração com CRM e sistemas",
+  "Processamento de e-mails e documentos",
+  "Geração automática de relatórios",
+  "Agentes inteligentes humanizados",
+  "Redução de custos operacionais",
+  "Aumento de produtividade",
+  "Suporte especializado contínuo"
 ];
 
 const Hero: React.FC = () => {
@@ -53,17 +53,17 @@ const Hero: React.FC = () => {
               <span className="relative inline-flex rounded-full h-3 w-3 bg-primary-500"></span>
             </span>
             <span className="text-sm font-medium bg-gradient-to-r from-primary-400 to-accent-400 bg-clip-text text-transparent">
-              Aprenda a automatizar e escalar seu negócio
+              Especialistas em Automação com IA
             </span>
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold leading-tight mb-8">
-            <GradientText>Automatize. Escale.</GradientText><br />
-            Domine a IA para transformar seu negócio
+            <GradientText>Automatize, Escale</GradientText><br />
+            e Transforme sua operação com Inteligência Artificial
           </h1>
           
           <p className="text-xl md:text-2xl text-white/80 mb-12 max-w-3xl mx-auto">
-            Treinamentos práticos e mentoria especializada para você implementar automação com IA e escalar seu negócio de forma sustentável.
+            Somos especialistas em criar agentes e fluxos inteligentes que trabalham por você 24/7.
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6 mb-16">
@@ -73,7 +73,7 @@ const Hero: React.FC = () => {
               onClick={() => window.location.href = '#apply'}
             >
               <span className="flex items-center justify-center gap-2">
-                Inscreva-se Agora
+                Agendar Reunião Gratuita
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </span>
             </Button>
@@ -83,7 +83,7 @@ const Hero: React.FC = () => {
               onClick={() => window.location.href = '#services'}
             >
               <span className="flex items-center justify-center gap-2">
-                Conheça os Cursos
+                Falar com um Agente
                 <Brain className="w-5 h-5 group-hover:rotate-12 transition-transform" />
               </span>
             </Button>
@@ -95,8 +95,8 @@ const Hero: React.FC = () => {
                 <Bot className="w-6 h-6 text-primary-400" />
               </div>
               <div className="text-left">
-                <h3 className="font-semibold mb-1">Metodologia Prática</h3>
-                <p className="text-sm text-white/70">Aprenda fazendo projetos reais</p>
+                <h3 className="font-semibold mb-1">Projetos Personalizados</h3>
+                <p className="text-sm text-white/70">Soluções sob medida para seu negócio</p>
               </div>
             </div>
 
@@ -105,8 +105,8 @@ const Hero: React.FC = () => {
                 <Brain className="w-6 h-6 text-accent-400" />
               </div>
               <div className="text-left">
-                <h3 className="font-semibold mb-1">Suporte Personalizado</h3>
-                <p className="text-sm text-white/70">Mentoria individual durante todo o curso</p>
+                <h3 className="font-semibold mb-1">IA Humanizada</h3>
+                <p className="text-sm text-white/70">Linguagem natural e inteligente</p>
               </div>
             </div>
 
@@ -115,8 +115,8 @@ const Hero: React.FC = () => {
                 <Zap className="w-6 h-6 text-primary-400" />
               </div>
               <div className="text-left">
-                <h3 className="font-semibold mb-1">Certificação Profissional</h3>
-                <p className="text-sm text-white/70">Reconhecimento no mercado</p>
+                <h3 className="font-semibold mb-1">Resultados Rápidos</h3>
+                <p className="text-sm text-white/70">Implementação ágil e eficiente</p>
               </div>
             </div>
           </div>

@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
             <span className="ml-1">Academy</span>
           </div>
           <p className="text-white/70 max-w-sm mx-auto">
-            Formando profissionais em IA e automação para transformar negócios.
+            Especialistas em criar agentes e fluxos inteligentes que trabalham por você 24/7.
           </p>
         </div>
 

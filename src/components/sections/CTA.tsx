@@ -51,33 +51,33 @@ const CTA: React.FC = () => {
               </div>
 
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold mb-6">
-                Pronto para dominar <GradientText>IA e Automação?</GradientText>
+                Pronto para colocar a IA <GradientText>para trabalhar no seu negócio?</GradientText>
               </h2>
               <p className="text-xl text-white/80 mb-8">
-                Inscreva-se agora e receba acesso a uma aula gratuita. Descubra como implementar
-                automações que vão transformar seu negócio.
+                Agende uma reunião gratuita e descubra como a inteligência artificial pode
+                transformar sua operação e multiplicar seus resultados.
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                 <BenefitCard
                   icon={<Target className="w-6 h-6" />}
-                  title="Aula Gratuita"
-                  description="Acesso imediato a conteúdo exclusivo"
+                  title="Diagnóstico Gratuito"
+                  description="Análise completa do seu negócio"
                 />
                 <BenefitCard
                   icon={<Lightbulb className="w-6 h-6" />}
-                  title="Material de Apoio"
-                  description="Templates e recursos práticos"
+                  title="Proposta Personalizada"
+                  description="Solução sob medida para você"
                 />
                 <BenefitCard
                   icon={<Rocket className="w-6 h-6" />}
-                  title="Comunidade Ativa"
-                  description="Rede de alunos e profissionais"
+                  title="Implementação Rápida"
+                  description="Resultados em semanas"
                 />
                 <BenefitCard
                   icon={<Gauge className="w-6 h-6" />}
-                  title="Certificado Profissional"
-                  description="Reconhecimento ao completar o curso"
+                  title="Suporte Dedicado"
+                  description="Acompanhamento contínuo"
                 />
               </div>
             </div>

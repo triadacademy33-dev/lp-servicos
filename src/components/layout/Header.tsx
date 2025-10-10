@@ -32,7 +32,12 @@ const Header: React.FC = () => {
     >
       <Container className="flex items-center justify-between">
         <div className="flex items-center">
-          <a href="#" className="flex items-center">
+          <a href="#" className="flex items-center gap-3">
+            <img
+              src="/Logob-Photoroom.png"
+              alt="Triad Academy"
+              className="h-12 w-auto"
+            />
             <div className="text-2xl font-display font-bold">
               <GradientText>Triad</GradientText>
               <span className="ml-1">Academy</span>
@@ -46,7 +51,7 @@ const Header: React.FC = () => {
             Sobre
           </a>
           <a href="#services" className="text-white/80 hover:text-white font-medium transition-colors">
-            Cursos
+            Serviços
           </a>
           <a href="#methodology" className="text-white/80 hover:text-white font-medium transition-colors">
             Metodologia
@@ -56,7 +61,7 @@ const Header: React.FC = () => {
             className="ml-4"
             onClick={() => window.location.href = '#apply'}
           >
-            Inscreva-se
+            Agendar Reunião
           </Button>
         </nav>
 
@@ -86,7 +91,7 @@ const Header: React.FC = () => {
               className="text-white/80 hover:text-white font-medium py-2 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Cursos
+              Serviços
             </a>
             <a 
               href="#methodology" 
@@ -103,7 +108,7 @@ const Header: React.FC = () => {
                 setIsMenuOpen(false);
               }}
             >
-              Inscreva-se
+              Agendar Reunião
             </Button>
           </div>
         </div>

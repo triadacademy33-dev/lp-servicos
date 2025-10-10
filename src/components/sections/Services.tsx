@@ -45,57 +45,57 @@ const Services: React.FC = () => {
           <div className="text-center mb-16">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-primary-500/10 to-accent-500/10 border border-primary-500/20 mb-8">
               <span className="text-sm font-medium bg-gradient-to-r from-primary-400 to-accent-400 bg-clip-text text-transparent">
-                Nossos Cursos
+                O Que Fazemos
               </span>
             </div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold mb-6">
-              Programas de formação em <GradientText>IA e Automação</GradientText>
+              O Que Fazemos na <GradientText>Triad Academy</GradientText>
             </h2>
             <p className="text-xl text-white/80 max-w-3xl mx-auto">
-              Aprenda na prática a implementar inteligência artificial e automação no seu negócio,
-              com suporte especializado e projetos reais.
+              Criamos soluções personalizadas de automação com IA que transformam
+              operações e geram resultados reais para seu negócio.
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
             <ServiceCard
               icon={<Bot className="w-10 h-10" />}
-              title="Agentes de IA e Chatbots Inteligentes"
-              description="Aprenda a criar assistentes virtuais completos usando Claude, GPT e outras IAs, desde a configuração até integrações avançadas."
+              title="Atendimento Automatizado no WhatsApp"
+              description="Agentes de IA que respondem seus clientes 24/7 com linguagem natural, resolvem dúvidas e convertem vendas automaticamente."
               features={[
-                "Construção de chatbots do zero",
-                "Integração com WhatsApp e Telegram",
-                "Personalização avançada de respostas"
+                "Respostas humanizadas e inteligentes",
+                "Integração com seu número comercial",
+                "Qualificação automática de leads"
               ]}
             />
             <ServiceCard
               icon={<BrainCircuit className="w-10 h-10" />}
-              title="Automação de Processos e Workflows"
-              description="Domine ferramentas como Make, n8n e Zapier para criar fluxos automatizados que conectam todas as suas plataformas."
+              title="Integração com CRM e Sistemas"
+              description="Conectamos sua IA com CRM, ERP, planilhas e qualquer sistema que você use, criando um fluxo de dados inteligente e automatizado."
               features={[
-                "Workflows entre múltiplas ferramentas",
-                "Automação de tarefas repetitivas",
-                "Integrações via API"
+                "Sincronização automática de dados",
+                "Atualização em tempo real",
+                "Integração com múltiplas plataformas"
               ]}
             />
             <ServiceCard
               icon={<Workflow className="w-10 h-10" />}
-              title="Escalação Comercial com IA"
-              description="Estratégias e ferramentas para automatizar seu funil de vendas, desde a prospecção até o fechamento."
+              title="Processamento de E-mails e Documentos"
+              description="IA que lê, organiza e responde e-mails automaticamente, além de extrair dados de documentos e contratos."
               features={[
-                "Automação de prospecção",
-                "Follow-up inteligente",
-                "CRM automatizado"
+                "Classificação automática de e-mails",
+                "Extração de dados de documentos",
+                "Respostas automatizadas personalizadas"
               ]}
             />
             <ServiceCard
               icon={<Network className="w-10 h-10" />}
-              title="Implementação e Escalação"
-              description="Metodologia completa para implementar automações no seu negócio e escalar de forma sustentável."
+              title="Geração Automática de Relatórios"
+              description="Dashboards e relatórios criados automaticamente com análise de dados em tempo real para tomada de decisões estratégicas."
               features={[
-                "Diagnóstico de processos",
-                "Roadmap de implementação",
-                "Métricas e otimização"
+                "Dashboards personalizados",
+                "Análise preditiva com IA",
+                "Relatórios automatizados por período"
               ]}
             />
           </div>
@@ -106,7 +106,7 @@ const Services: React.FC = () => {
               className="group inline-flex items-center gap-2 px-6 py-3 rounded-full bg-dark-800/50 border border-dark-700/50 hover:border-primary-500/30 transition-all duration-300"
             >
               <span className="text-white/90 group-hover:text-white transition-colors">
-                Conheça a grade completa dos cursos
+                Conheça todas as nossas soluções
               </span>
               <ArrowRight className="w-4 h-4 text-primary-400 group-hover:translate-x-1 transition-transform" />
             </a>

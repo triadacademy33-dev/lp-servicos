@@ -45,33 +45,43 @@ const About: React.FC = () => {
           <div className="text-center mb-16">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-primary-500/10 to-accent-500/10 border border-primary-500/20 mb-8">
               <span className="text-sm font-medium bg-gradient-to-r from-primary-400 to-accent-400 bg-clip-text text-transparent">
-                Sobre nós
+                Por Que Escolher
               </span>
             </div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold mb-6">
-              A academia líder em <GradientText>IA e Automação</GradientText> para negócios
+              Por Que Escolher a <GradientText>Triad Academy</GradientText>
             </h2>
             <p className="text-xl text-white/80 max-w-3xl mx-auto">
-              A Triad Academy forma profissionais e empreendedores que querem dominar inteligência artificial
-              e automação para escalar seus negócios de forma inteligente e sustentável.
+              Somos especialistas em criar soluções de automação com IA que transformam operações,
+              reduzem custos e aumentam a produtividade de forma mensurável.
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
             <AboutCard
               icon={<Shield className="w-12 h-12 text-primary-400" />}
-              title="Instrutores Experientes"
-              description="Professores atuantes no mercado que ensinam o que realmente funciona na implementação de IA e automação em negócios reais."
+              title="Projetos Personalizados"
+              description="Cada solução é desenvolvida sob medida para seu negócio, considerando seus processos, cultura e objetivos específicos."
             />
             <AboutCard
               icon={<Award className="w-12 h-12 text-accent-400" />}
-              title="Alunos Transformados"
-              description="Centenas de alunos que implementaram automações e escalaram seus negócios, com resultados mensuráveis e reais."
+              title="Linguagem Natural Humanizada"
+              description="Nossos agentes de IA conversam de forma natural e empática, proporcionando uma experiência indistinguível de um atendimento humano."
             />
             <AboutCard
               icon={<Zap className="w-12 h-12 text-primary-400" />}
-              title="Metodologia Única"
-              description="Aprendizado baseado em projetos reais, com suporte contínuo e comunidade ativa de alunos e ex-alunos."
+              title="Integrações Completas"
+              description="Conectamos sua IA com todos os sistemas que você já usa: CRM, ERP, e-mail, WhatsApp, planilhas e muito mais."
+            />
+            <AboutCard
+              icon={<Shield className="w-12 h-12 text-accent-400" />}
+              title="Suporte Especializado"
+              description="Equipe dedicada para suporte técnico, treinamento da sua equipe e acompanhamento contínuo dos resultados."
+            />
+            <AboutCard
+              icon={<Award className="w-12 h-12 text-primary-400" />}
+              title="Resultados Rápidos"
+              description="Implementação ágil com metodologia comprovada. Veja os primeiros resultados em poucas semanas."
             />
           </div>
         </div>

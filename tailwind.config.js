@@ -4,31 +4,37 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Primary - Azul Elétrico / Cobalto
+        // Primary - Laranja
         primary: {
-          '50': '#EAF0FF',
-          '400': '#3A75FF',
-          '500': '#0057FF', // Cor principal
-          '600': '#0047D6',
-          '900': '#002D88',
+          '50': '#FFF4ED',
+          '100': '#FFE8D6',
+          '200': '#FFD1AD',
+          '300': '#FFB178',
+          '400': '#FF8A41',
+          '500': '#FF6B0F', // Cor principal laranja vibrante
+          '600': '#F05000',
+          '700': '#C73F00',
+          '800': '#9E3400',
+          '900': '#7D2C00',
         },
-        // Secondary - Roxo Profundo
+        // Secondary - Laranja escuro
         secondary: {
-          '400': '#7C3AED',
-          '500': '#4B00B7', // Cor secundária
-          '600': '#3A0094',
+          '400': '#FF8A41',
+          '500': '#FF6B0F',
+          '600': '#F05000',
         },
-        // Accent - Verde Neon Suave
+        // Accent - Laranja claro/amarelo
         accent: {
-          '400': '#00FFAA',
-          '500': '#00D18C', // Cor de destaque
-          '600': '#00A86B',
+          '400': '#FFB178',
+          '500': '#FF8A41',
+          '600': '#FF6B0F',
         },
-        // Dark - Tons escuros profissionais
+        // Dark - Tons escuros preto
         dark: {
+          '700': '#2A2A2A',
           '800': '#1A1A1A',
-          '900': '#111111',
-          '950': '#0B0B0B',
+          '900': '#0F0F0F',
+          '950': '#000000',
         },
       },
       fontFamily: {
