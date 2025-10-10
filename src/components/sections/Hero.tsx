@@ -57,11 +57,17 @@ const Hero: React.FC = () => {
             </span>
           </div>
 
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold leading-tight mb-8">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold leading-tight mb-6">
             <GradientText>Automatize, Escale</GradientText><br />
             e Transforme sua operação com Inteligência Artificial
           </h1>
-          
+
+          <div className="mb-8">
+            <p className="text-lg md:text-xl text-primary-400 font-semibold italic">
+              Onde as Mentes Brilhantes se Encontram com a IA
+            </p>
+          </div>
+
           <p className="text-xl md:text-2xl text-white/80 mb-12 max-w-3xl mx-auto">
             Somos especialistas em criar agentes e fluxos inteligentes que trabalham por você 24/7.
           </p>

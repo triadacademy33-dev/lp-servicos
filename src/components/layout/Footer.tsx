@@ -6,10 +6,13 @@ const Footer: React.FC = () => {
     <footer className="bg-dark-950 border-t border-dark-800/50 py-16">
       <Container>
         <div className="text-center">
-          <div className="text-2xl font-display font-bold mb-4">
+          <div className="text-2xl font-display font-bold mb-2">
             <GradientText>Triad</GradientText>
             <span className="ml-1">Academy</span>
           </div>
+          <p className="text-primary-400/80 text-sm italic mb-4">
+            Onde as Mentes Brilhantes se Encontram com a IA
+          </p>
           <p className="text-white/70 max-w-sm mx-auto">
             Especialistas em criar agentes e fluxos inteligentes que trabalham por você 24/7.
           </p>
