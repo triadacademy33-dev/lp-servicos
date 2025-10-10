@@ -6,14 +6,14 @@ import Marquee from '../ui/Marquee';
 import { ArrowRight, Bot, Brain, Zap } from 'lucide-react';
 
 const benefitItems = [
-  "Redução de 70% nos custos operacionais",
-  "Aumento de 45% na satisfação do cliente",
-  "Automação de 85% das tarefas repetitivas",
-  "ROI positivo em 3 meses",
-  "Disponibilidade 24/7",
-  "Escalabilidade imediata",
-  "Integração com sistemas existentes",
-  "Análise de dados em tempo real"
+  "Aprenda a criar agentes de IA do zero",
+  "Domine automação com ferramentas No-Code",
+  "Implemente chatbots inteligentes",
+  "Integre múltiplas plataformas",
+  "Construa workflows automatizados",
+  "Otimize processos comerciais",
+  "Crie dashboards e relatórios automatizados",
+  "Escale seu negócio com eficiência"
 ];
 
 const Hero: React.FC = () => {
@@ -53,17 +53,17 @@ const Hero: React.FC = () => {
               <span className="relative inline-flex rounded-full h-3 w-3 bg-primary-500"></span>
             </span>
             <span className="text-sm font-medium bg-gradient-to-r from-primary-400 to-accent-400 bg-clip-text text-transparent">
-              Tecnologia de ponta em IA
+              Aprenda a automatizar e escalar seu negócio
             </span>
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold leading-tight mb-8">
             <GradientText>Automatize. Escale.</GradientText><br />
-            Transforme seu negócio com IA
+            Domine a IA para transformar seu negócio
           </h1>
           
           <p className="text-xl md:text-2xl text-white/80 mb-12 max-w-3xl mx-auto">
-            Soluções de IA e automação humanizada que geram resultados reais, reduzem custos e aumentam a produtividade do seu negócio.
+            Treinamentos práticos e mentoria especializada para você implementar automação com IA e escalar seu negócio de forma sustentável.
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6 mb-16">
@@ -73,7 +73,7 @@ const Hero: React.FC = () => {
               onClick={() => window.location.href = '#apply'}
             >
               <span className="flex items-center justify-center gap-2">
-                Começar Agora
+                Inscreva-se Agora
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </span>
             </Button>
@@ -83,7 +83,7 @@ const Hero: React.FC = () => {
               onClick={() => window.location.href = '#services'}
             >
               <span className="flex items-center justify-center gap-2">
-                Explorar Soluções
+                Conheça os Cursos
                 <Brain className="w-5 h-5 group-hover:rotate-12 transition-transform" />
               </span>
             </Button>
@@ -95,8 +95,8 @@ const Hero: React.FC = () => {
                 <Bot className="w-6 h-6 text-primary-400" />
               </div>
               <div className="text-left">
-                <h3 className="font-semibold mb-1">IA Humanizada</h3>
-                <p className="text-sm text-white/70">Agentes que pensam e agem como humanos</p>
+                <h3 className="font-semibold mb-1">Metodologia Prática</h3>
+                <p className="text-sm text-white/70">Aprenda fazendo projetos reais</p>
               </div>
             </div>
 
@@ -105,8 +105,8 @@ const Hero: React.FC = () => {
                 <Brain className="w-6 h-6 text-accent-400" />
               </div>
               <div className="text-left">
-                <h3 className="font-semibold mb-1">Automação 360°</h3>
-                <p className="text-sm text-white/70">Integração completa de processos</p>
+                <h3 className="font-semibold mb-1">Suporte Personalizado</h3>
+                <p className="text-sm text-white/70">Mentoria individual durante todo o curso</p>
               </div>
             </div>
 
@@ -115,8 +115,8 @@ const Hero: React.FC = () => {
                 <Zap className="w-6 h-6 text-primary-400" />
               </div>
               <div className="text-left">
-                <h3 className="font-semibold mb-1">Resultados Reais</h3>
-                <p className="text-sm text-white/70">ROI mensurável e garantido</p>
+                <h3 className="font-semibold mb-1">Certificação Profissional</h3>
+                <p className="text-sm text-white/70">Reconhecimento no mercado</p>
               </div>
             </div>
           </div>

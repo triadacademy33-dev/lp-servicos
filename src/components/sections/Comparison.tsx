@@ -34,61 +34,61 @@ const Comparison: React.FC = () => {
 
   const comparisonData = [
     {
-      feature: "Diagnóstico estratégico do negócio antes da automação",
+      feature: "Metodologia estruturada passo a passo",
       tools: false,
       freelancers: false,
       automatik: true
     },
     {
-      feature: "Criação de agentes de IA com inteligência e humanização",
+      feature: "Projetos práticos do início ao fim",
       tools: false,
       freelancers: "sometimes",
       automatik: true
     },
     {
-      feature: "Automação 360° de toda a jornada (Marketing, Comercial, Entrega e Pós-venda)",
+      feature: "Mentoria individual personalizada",
+      tools: false,
+      freelancers: false,
+      automatik: true
+    },
+    {
+      feature: "Suporte técnico durante o aprendizado",
       tools: false,
       freelancers: "sometimes",
       automatik: true
     },
     {
-      feature: "Suporte consultivo contínuo com especialistas",
-      tools: false,
-      freelancers: "sometimes",
-      automatik: true
-    },
-    {
-      feature: "Customização profunda para cultura e processos da empresa",
-      tools: false,
-      freelancers: "sometimes",
-      automatik: true
-    },
-    {
-      feature: "Integração entre diferentes sistemas com IA inteligente",
+      feature: "Conteúdo atualizado com as últimas ferramentas",
       tools: "sometimes",
       freelancers: "sometimes",
       automatik: true
     },
     {
-      feature: "Construção de fluxos com visão de crescimento e escala",
+      feature: "Certificação profissional reconhecida",
       tools: false,
       freelancers: false,
       automatik: true
     },
     {
-      feature: "Acompanhamento e otimização contínua das automações",
+      feature: "Comunidade ativa de alunos e ex-alunos",
+      tools: false,
+      freelancers: false,
+      automatik: true
+    },
+    {
+      feature: "Casos reais e estratégias validadas",
       tools: false,
       freelancers: "sometimes",
       automatik: true
     },
     {
-      feature: "Redução de custos e aumento de produtividade como foco principal",
+      feature: "Foco em resultados e implementação prática",
       tools: false,
       freelancers: false,
       automatik: true
     },
     {
-      feature: "Time dedicado e processo validado para garantir resultado",
+      feature: "Acesso vitalicio ao conteúdo e atualizações",
       tools: false,
       freelancers: false,
       automatik: true
@@ -138,11 +138,11 @@ const Comparison: React.FC = () => {
               </span>
             </div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold mb-6">
-              Por que escolher a <GradientText>Automatik Labs</GradientText>?
+              Por que escolher a <GradientText>Triad Academy</GradientText>?
             </h2>
             <p className="text-xl text-white/80 max-w-3xl mx-auto">
-              Compare nossa solução completa com alternativas do mercado e entenda por que somos
-              a escolha ideal para transformar seu negócio.
+              Compare nossa formação completa com outras opções de aprendizado e entenda por que somos
+              a escolha ideal para sua carreira em automação e IA.
             </p>
           </div>
 
@@ -158,18 +158,21 @@ const Comparison: React.FC = () => {
                       Recursos e Diferenciais
                     </div>
                     <div className="p-6 text-center font-semibold text-lg">
-                      Ferramentas Avulsas
+                      Cursos Online
                       <div className="text-sm text-white/60 font-normal">
-                        (Zapier, Make, n8n)
+                        (Plataformas genéricas)
                       </div>
                     </div>
                     <div className="p-6 text-center font-semibold text-lg">
-                      Freelancers e Autônomos
+                      Tutoriais YouTube
+                      <div className="text-sm text-white/60 font-normal">
+                        (Conteúdo gratuito)
+                      </div>
                     </div>
                     <div className="p-6 text-center font-semibold text-lg">
-                      Automatik Labs
+                      Triad Academy
                       <div className="text-sm text-white/60 font-normal">
-                        (Nossa Agência)
+                        (Nossa Academia)
                       </div>
                     </div>
                   </div>
@@ -221,15 +224,15 @@ const Comparison: React.FC = () => {
                 {expandedCard === index && (
                   <div className="px-4 pb-4 space-y-3 border-t border-dark-700/50 pt-4">
                     <div className="flex items-center justify-between">
-                      <span className="text-sm text-white/70">Ferramentas Avulsas:</span>
+                      <span className="text-sm text-white/70">Cursos Online:</span>
                       <StatusIcon status={row.tools} />
                     </div>
                     <div className="flex items-center justify-between">
-                      <span className="text-sm text-white/70">Freelancers:</span>
+                      <span className="text-sm text-white/70">Tutoriais YouTube:</span>
                       <StatusIcon status={row.freelancers} />
                     </div>
                     <div className="flex items-center justify-between">
-                      <span className="text-sm text-white/70">Automatik Labs:</span>
+                      <span className="text-sm text-white/70">Triad Academy:</span>
                       <StatusIcon status={row.automatik} />
                     </div>
                   </div>

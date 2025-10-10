@@ -51,33 +51,33 @@ const CTA: React.FC = () => {
               </div>
 
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold mb-6">
-                Pronto para transformar seu negócio com <GradientText>IA sob medida?</GradientText>
+                Pronto para dominar <GradientText>IA e Automação?</GradientText>
               </h2>
               <p className="text-xl text-white/80 mb-8">
-                Preencha o formulário e vamos entender como podemos levar sua empresa para o próximo nível 
-                com inteligência e automação humanizada.
+                Inscreva-se agora e receba acesso a uma aula gratuita. Descubra como implementar
+                automações que vão transformar seu negócio.
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
                 <BenefitCard
                   icon={<Target className="w-6 h-6" />}
-                  title="Diagnóstico Gratuito"
-                  description="Análise completa das necessidades do seu negócio"
+                  title="Aula Gratuita"
+                  description="Acesso imediato a conteúdo exclusivo"
                 />
                 <BenefitCard
                   icon={<Lightbulb className="w-6 h-6" />}
-                  title="Proposta Personalizada"
-                  description="Soluções sob medida para seus objetivos"
+                  title="Material de Apoio"
+                  description="Templates e recursos práticos"
                 />
                 <BenefitCard
                   icon={<Rocket className="w-6 h-6" />}
-                  title="Implementação Rápida"
-                  description="Resultados em semanas, não meses"
+                  title="Comunidade Ativa"
+                  description="Rede de alunos e profissionais"
                 />
                 <BenefitCard
                   icon={<Gauge className="w-6 h-6" />}
-                  title="Suporte Dedicado"
-                  description="Acompanhamento em todas as etapas"
+                  title="Certificado Profissional"
+                  description="Reconhecimento ao completar o curso"
                 />
               </div>
             </div>

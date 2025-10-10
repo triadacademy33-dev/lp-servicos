@@ -45,57 +45,57 @@ const Services: React.FC = () => {
           <div className="text-center mb-16">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-primary-500/10 to-accent-500/10 border border-primary-500/20 mb-8">
               <span className="text-sm font-medium bg-gradient-to-r from-primary-400 to-accent-400 bg-clip-text text-transparent">
-                Nossas Soluções
+                Nossos Cursos
               </span>
             </div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold mb-6">
-              Soluções completas de <GradientText>Automação 360°</GradientText>
+              Programas de formação em <GradientText>IA e Automação</GradientText>
             </h2>
             <p className="text-xl text-white/80 max-w-3xl mx-auto">
-              Desenvolvemos soluções personalizadas que integram inteligência artificial
-              e automação para transformar todas as áreas do seu negócio.
+              Aprenda na prática a implementar inteligência artificial e automação no seu negócio,
+              com suporte especializado e projetos reais.
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-            <ServiceCard 
+            <ServiceCard
               icon={<Bot className="w-10 h-10" />}
-              title="Atendimento automatizado com IA humanizada"
-              description="Agentes de IA que conversam naturalmente com seus clientes, resolvem problemas e conduzem vendas com personalidade e empatia."
+              title="Agentes de IA e Chatbots Inteligentes"
+              description="Aprenda a criar assistentes virtuais completos usando Claude, GPT e outras IAs, desde a configuração até integrações avançadas."
               features={[
-                "Atendimento 24/7 personalizado",
-                "Integração com múltiplos canais",
-                "Análise de sentimento em tempo real"
+                "Construção de chatbots do zero",
+                "Integração com WhatsApp e Telegram",
+                "Personalização avançada de respostas"
               ]}
             />
-            <ServiceCard 
+            <ServiceCard
               icon={<BrainCircuit className="w-10 h-10" />}
-              title="Automação do setor comercial"
-              description="Sistemas inteligentes para prospecção, qualificação de leads, follow-up e recuperação de vendas perdidas, sem perder o toque humano."
+              title="Automação de Processos e Workflows"
+              description="Domine ferramentas como Make, n8n e Zapier para criar fluxos automatizados que conectam todas as suas plataformas."
               features={[
-                "Qualificação automática de leads",
-                "Sequências de follow-up inteligentes",
-                "Análise preditiva de conversão"
+                "Workflows entre múltiplas ferramentas",
+                "Automação de tarefas repetitivas",
+                "Integrações via API"
               ]}
             />
-            <ServiceCard 
+            <ServiceCard
               icon={<Workflow className="w-10 h-10" />}
-              title="Otimização de processos internos"
-              description="Automatização de tarefas operacionais repetitivas, liberando sua equipe para atividades estratégicas e de alto valor."
+              title="Escalação Comercial com IA"
+              description="Estratégias e ferramentas para automatizar seu funil de vendas, desde a prospecção até o fechamento."
               features={[
-                "Automação de processos (RPA)",
-                "Integração entre sistemas",
-                "Dashboards em tempo real"
+                "Automação de prospecção",
+                "Follow-up inteligente",
+                "CRM automatizado"
               ]}
             />
-            <ServiceCard 
+            <ServiceCard
               icon={<Network className="w-10 h-10" />}
-              title="Integração de áreas com inteligência"
-              description="Soluções que conectam todos os departamentos do seu negócio com fluxos de dados inteligentes e decisões baseadas em insights."
+              title="Implementação e Escalação"
+              description="Metodologia completa para implementar automações no seu negócio e escalar de forma sustentável."
               features={[
-                "Fluxos de trabalho automatizados",
-                "BI com machine learning",
-                "APIs inteligentes customizadas"
+                "Diagnóstico de processos",
+                "Roadmap de implementação",
+                "Métricas e otimização"
               ]}
             />
           </div>
@@ -106,7 +106,7 @@ const Services: React.FC = () => {
               className="group inline-flex items-center gap-2 px-6 py-3 rounded-full bg-dark-800/50 border border-dark-700/50 hover:border-primary-500/30 transition-all duration-300"
             >
               <span className="text-white/90 group-hover:text-white transition-colors">
-                Conheça todas as possibilidades para seu negócio
+                Conheça a grade completa dos cursos
               </span>
               <ArrowRight className="w-4 h-4 text-primary-400 group-hover:translate-x-1 transition-transform" />
             </a>

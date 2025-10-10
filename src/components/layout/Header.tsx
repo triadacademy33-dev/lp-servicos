@@ -34,8 +34,8 @@ const Header: React.FC = () => {
         <div className="flex items-center">
           <a href="#" className="flex items-center">
             <div className="text-2xl font-display font-bold">
-              <GradientText>Automatik</GradientText>
-              <span className="ml-1">Labs</span>
+              <GradientText>Triad</GradientText>
+              <span className="ml-1">Academy</span>
             </div>
           </a>
         </div>
@@ -46,17 +46,17 @@ const Header: React.FC = () => {
             Sobre
           </a>
           <a href="#services" className="text-white/80 hover:text-white font-medium transition-colors">
-            Serviços
+            Cursos
           </a>
           <a href="#methodology" className="text-white/80 hover:text-white font-medium transition-colors">
             Metodologia
           </a>
-          <Button 
-            variant="primary" 
+          <Button
+            variant="primary"
             className="ml-4"
             onClick={() => window.location.href = '#apply'}
           >
-            Aplicar Agora
+            Inscreva-se
           </Button>
         </nav>
 
@@ -81,12 +81,12 @@ const Header: React.FC = () => {
             >
               Sobre
             </a>
-            <a 
-              href="#services" 
+            <a
+              href="#services"
               className="text-white/80 hover:text-white font-medium py-2 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Serviços
+              Cursos
             </a>
             <a 
               href="#methodology" 
@@ -95,15 +95,15 @@ const Header: React.FC = () => {
             >
               Metodologia
             </a>
-            <Button 
-              variant="primary" 
+            <Button
+              variant="primary"
               className="w-full text-center py-3"
               onClick={() => {
                 window.location.href = '#apply';
                 setIsMenuOpen(false);
               }}
             >
-              Aplicar Agora
+              Inscreva-se
             </Button>
           </div>
         </div>

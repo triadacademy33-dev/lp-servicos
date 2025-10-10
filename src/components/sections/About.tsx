@@ -49,29 +49,29 @@ const About: React.FC = () => {
               </span>
             </div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold mb-6">
-              Somos especialistas em <GradientText>IA aplicada</GradientText> para resultados reais
+              A academia líder em <GradientText>IA e Automação</GradientText> para negócios
             </h2>
             <p className="text-xl text-white/80 max-w-3xl mx-auto">
-              A Automatik Labs é referência em agentes de IA humanizados e soluções de automação sob medida 
-              para negócios que buscam eficiência operacional, aumento de receita e redução de custos.
+              A Triad Academy forma profissionais e empreendedores que querem dominar inteligência artificial
+              e automação para escalar seus negócios de forma inteligente e sustentável.
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <AboutCard 
+            <AboutCard
               icon={<Shield className="w-12 h-12 text-primary-400" />}
-              title="Especialistas em IA"
-              description="Equipe com vasta experiência em desenvolvimento e implementação de soluções de inteligência artificial para diversos segmentos."
+              title="Instrutores Experientes"
+              description="Professores atuantes no mercado que ensinam o que realmente funciona na implementação de IA e automação em negócios reais."
             />
-            <AboutCard 
+            <AboutCard
               icon={<Award className="w-12 h-12 text-accent-400" />}
-              title="Reconhecimento no Mercado"
-              description="Projetos premiados e cases de sucesso em empresas de diferentes portes, com resultados mensuráveis e significativos."
+              title="Alunos Transformados"
+              description="Centenas de alunos que implementaram automações e escalaram seus negócios, com resultados mensuráveis e reais."
             />
-            <AboutCard 
+            <AboutCard
               icon={<Zap className="w-12 h-12 text-primary-400" />}
-              title="Tecnologia de Ponta"
-              description="Utilizamos as mais avançadas tecnologias de IA, machine learning e automação para criar soluções personalizadas."
+              title="Metodologia Única"
+              description="Aprendizado baseado em projetos reais, com suporte contínuo e comunidade ativa de alunos e ex-alunos."
             />
           </div>
         </div>
