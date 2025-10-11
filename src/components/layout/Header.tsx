@@ -59,7 +59,7 @@ const Header: React.FC = () => {
           <Button
             variant="primary"
             className="ml-4"
-            onClick={() => window.location.href = '#apply'}
+            onClick={() => window.open('https://wa.me/5511912316011?text=Olá! Gostaria de agendar uma reunião gratuita para conhecer as soluções da Triad Academy.', '_blank')}
           >
             Agendar Reunião
           </Button>
@@ -104,7 +104,7 @@ const Header: React.FC = () => {
               variant="primary"
               className="w-full text-center py-3"
               onClick={() => {
-                window.location.href = '#apply';
+                window.open('https://wa.me/5511912316011?text=Olá! Gostaria de agendar uma reunião gratuita para conhecer as soluções da Triad Academy.', '_blank');
                 setIsMenuOpen(false);
               }}
             >

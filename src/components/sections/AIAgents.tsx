@@ -139,8 +139,10 @@ const AIAgents: React.FC = () => {
                 />
               </div>
               
-              <a 
-                href="#apply" 
+              <a
+                href="https://wa.me/5511912316011?text=Olá! Gostaria de conhecer mais sobre os agentes de IA da Triad Academy."
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group inline-flex items-center gap-2 px-6 py-3 rounded-full bg-dark-800/50 border border-dark-700/50 hover:border-primary-500/30 transition-all duration-300"
               >
                 <span className="text-white/90 group-hover:text-white transition-colors">

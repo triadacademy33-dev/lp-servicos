@@ -73,20 +73,20 @@ const Hero: React.FC = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6 mb-16">
-            <Button 
-              variant="primary" 
+            <Button
+              variant="primary"
               className="w-full sm:w-auto text-lg py-6 px-12 group"
-              onClick={() => window.location.href = '#apply'}
+              onClick={() => window.open('https://wa.me/5511912316011?text=Olá! Gostaria de agendar uma reunião gratuita para conhecer as soluções da Triad Academy.', '_blank')}
             >
               <span className="flex items-center justify-center gap-2">
                 Agendar Reunião Gratuita
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </span>
             </Button>
-            <Button 
-              variant="secondary" 
+            <Button
+              variant="secondary"
               className="w-full sm:w-auto text-lg group"
-              onClick={() => window.location.href = '#services'}
+              onClick={() => window.open('https://wa.me/5511912316011?text=Olá! Quero falar com um agente da Triad Academy.', '_blank')}
             >
               <span className="flex items-center justify-center gap-2">
                 Falar com um Agente
