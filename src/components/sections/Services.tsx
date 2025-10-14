@@ -101,13 +101,6 @@ const Services: React.FC = () => {
           </div>
           
           <div className="flex flex-col items-center gap-8">
-            <div className="w-full max-w-4xl">
-              <img
-                src="/template.png"
-                alt="Workflow de automação com IA"
-                className="w-full h-auto rounded-2xl shadow-2xl shadow-primary-500/20 border border-dark-700/50"
-              />
-            </div>
             <a
               href="https://wa.me/5511912316011?text=Olá! Gostaria de conhecer todas as soluções da Triad Academy."
               target="_blank"
@@ -119,6 +112,13 @@ const Services: React.FC = () => {
               </span>
               <ArrowRight className="w-4 h-4 text-primary-400 group-hover:translate-x-1 transition-transform" />
             </a>
+            <div className="w-full max-w-4xl">
+              <img
+                src="/template.png"
+                alt="Workflow de automação com IA"
+                className="w-full h-auto rounded-2xl shadow-2xl shadow-primary-500/20 border border-dark-700/50"
+              />
+            </div>
           </div>
         </div>
       </Container>
