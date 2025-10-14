@@ -100,7 +100,14 @@ const Services: React.FC = () => {
             />
           </div>
           
-          <div className="flex justify-center">
+          <div className="flex flex-col items-center gap-8">
+            <div className="w-full max-w-4xl">
+              <img
+                src="/template.png"
+                alt="Workflow de automação com IA"
+                className="w-full h-auto rounded-2xl shadow-2xl shadow-primary-500/20 border border-dark-700/50"
+              />
+            </div>
             <a
               href="https://wa.me/5511912316011?text=Olá! Gostaria de conhecer todas as soluções da Triad Academy."
               target="_blank"
