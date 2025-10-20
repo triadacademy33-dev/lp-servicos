@@ -7,6 +7,7 @@ import Testimonials from './components/sections/Testimonials';
 import About from './components/sections/About';
 import Methodology from './components/sections/Methodology';
 import CTA from './components/sections/CTA';
+import PrivacyPolicy from './components/sections/PrivacyPolicy';
 import Footer from './components/layout/Footer';
 
 function App() {
@@ -23,6 +24,9 @@ function App() {
         <About />
         <Methodology />
         <CTA />
+        <div id="privacy-policy">
+          <PrivacyPolicy />
+        </div>
       </main>
       <Footer />
     </div>
