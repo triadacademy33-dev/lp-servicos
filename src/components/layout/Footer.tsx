@@ -8,49 +8,47 @@ type FooterProps = {
 
 const Footer: React.FC<FooterProps> = ({ onPrivacyPolicyClick, onTermsClick }) => {
   return (
-    <footer className="bg-dark-950 border-t border-dark-800/50 py-16">
+    <footer className="bg-black py-8 text-center font-sans text-gray-400 leading-relaxed">
       <Container>
-        <div className="text-center">
-          <div className="text-2xl font-display font-bold mb-2">
-            <GradientText>Triad</GradientText>
-            <span className="ml-1">Academy</span>
-          </div>
-          <p className="text-primary-400/80 text-sm italic mb-4">
-            Onde as Mentes Brilhantes se Encontram com a IA
-          </p>
-          <p className="text-white/70 max-w-sm mx-auto mb-6">
-            Especialistas em criar agentes e fluxos inteligentes que trabalham por você 24/7.
-          </p>
+        <h2 className="text-2xl font-bold mb-1">
+          <span className="text-[#E58A1F]">Triad</span>{' '}
+          <span className="text-white">Academy</span>
+        </h2>
+        <p className="italic text-[#b46a2d] mb-3">
+          Onde as Mentes Brilhantes se Encontram com a IA
+        </p>
 
-          <nav className="flex items-center justify-center gap-6 text-sm">
-            <button
-              onClick={onPrivacyPolicyClick}
-              className="text-white/60 hover:text-primary-400 transition-colors underline"
-            >
-              Política de Privacidade
-            </button>
-            <button
-              onClick={onTermsClick}
-              className="text-white/60 hover:text-primary-400 transition-colors underline"
-            >
-              Termos de Serviço
-            </button>
-          </nav>
+        <p className="text-gray-400 max-w-2xl mx-auto mb-6">
+          Especialistas em criar agentes e fluxos inteligentes que trabalham por você 24 horas por dia, 7 dias por semana.
+        </p>
+
+        <div className="mb-6">
+          <button
+            onClick={onPrivacyPolicyClick}
+            className="text-[#E58A1F] underline hover:text-[#f59726] transition-colors mr-4 cursor-pointer"
+          >
+            Política de Privacidade
+          </button>
+          <button
+            onClick={onTermsClick}
+            className="text-[#E58A1F] underline hover:text-[#f59726] transition-colors cursor-pointer"
+          >
+            Termos de Serviço
+          </button>
         </div>
 
-        <div className="border-t border-dark-800/50 mt-10 pt-10">
-          <p className="text-white/50 text-sm text-center">
-            © {new Date().getFullYear()} Triad Academy. Todos os direitos reservados.
-            <br />
-            Ao navegar neste site, você concorda com a nossa{' '}
-            <button
-              onClick={onPrivacyPolicyClick}
-              className="text-primary-400 hover:text-primary-300 transition-colors underline cursor-pointer"
-            >
-              Política de Privacidade 🔒
-            </button>
-          </p>
-        </div>
+        <p className="text-xs text-gray-500 mt-6">
+          © {new Date().getFullYear()} Triad Academy. Todos os direitos reservados.
+          <br />
+          Ao navegar neste site, você concorda com a nossa{' '}
+          <button
+            onClick={onPrivacyPolicyClick}
+            className="text-[#E58A1F] underline hover:text-[#f59726] transition-colors cursor-pointer"
+          >
+            Política de Privacidade
+          </button>{' '}
+          🔒
+        </p>
       </Container>
     </footer>
   );
