@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from './components/layout/Header';
 import Hero from './components/sections/Hero';
 import Services from './components/sections/Services';
@@ -11,10 +11,31 @@ import Footer from './components/layout/Footer';
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 
 function App() {
-  const [showPrivacyPolicy, setShowPrivacyPolicy] = useState(false);
+  const [currentPath, setCurrentPath] = useState(window.location.pathname);
 
-  if (showPrivacyPolicy) {
-    return <PrivacyPolicyPage onClose={() => setShowPrivacyPolicy(false)} />;
+  useEffect(() => {
+    const handlePopState = () => {
+      setCurrentPath(window.location.pathname);
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
+
+  const navigateToPrivacyPolicy = () => {
+    window.history.pushState({}, '', '/politica-de-privacidade');
+    setCurrentPath('/politica-de-privacidade');
+    window.scrollTo(0, 0);
+  };
+
+  const navigateToHome = () => {
+    window.history.pushState({}, '', '/');
+    setCurrentPath('/');
+    window.scrollTo(0, 0);
+  };
+
+  if (currentPath === '/politica-de-privacidade') {
+    return <PrivacyPolicyPage onClose={navigateToHome} />;
   }
 
   return (
@@ -31,7 +52,7 @@ function App() {
         <Methodology />
         <CTA />
       </main>
-      <Footer onPrivacyPolicyClick={() => setShowPrivacyPolicy(true)} />
+      <Footer onPrivacyPolicyClick={navigateToPrivacyPolicy} />
     </div>
   );
 }

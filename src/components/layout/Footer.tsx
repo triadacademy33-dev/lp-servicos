@@ -17,9 +17,18 @@ const Footer: React.FC<FooterProps> = ({ onPrivacyPolicyClick }) => {
           <p className="text-primary-400/80 text-sm italic mb-4">
             Onde as Mentes Brilhantes se Encontram com a IA
           </p>
-          <p className="text-white/70 max-w-sm mx-auto">
+          <p className="text-white/70 max-w-sm mx-auto mb-6">
             Especialistas em criar agentes e fluxos inteligentes que trabalham por você 24/7.
           </p>
+
+          <nav className="flex items-center justify-center gap-6 text-sm">
+            <button
+              onClick={onPrivacyPolicyClick}
+              className="text-white/60 hover:text-primary-400 transition-colors"
+            >
+              Política de Privacidade
+            </button>
+          </nav>
         </div>
 
         <div className="border-t border-dark-800/50 mt-10 pt-10">
