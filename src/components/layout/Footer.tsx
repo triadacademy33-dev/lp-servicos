@@ -1,7 +1,11 @@
 import React from 'react';
 import Container from '../ui/Container';
 
-const Footer: React.FC = () => {
+type FooterProps = {
+  onPrivacyPolicyClick?: () => void;
+};
+
+const Footer: React.FC<FooterProps> = ({ onPrivacyPolicyClick }) => {
   return (
     <footer className="bg-dark-950 border-t border-dark-800/50 py-16">
       <Container>
@@ -23,12 +27,12 @@ const Footer: React.FC = () => {
             © {new Date().getFullYear()} Triad Academy. Todos os direitos reservados.
             <br />
             Ao navegar neste site, você concorda com a nossa{' '}
-            <a
-              href="#privacy-policy"
-              className="text-primary-400 hover:text-primary-300 transition-colors underline"
+            <button
+              onClick={onPrivacyPolicyClick}
+              className="text-primary-400 hover:text-primary-300 transition-colors underline cursor-pointer"
             >
               Política de Privacidade 🔒
-            </a>
+            </button>
           </p>
         </div>
       </Container>
