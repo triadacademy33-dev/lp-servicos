@@ -14,6 +14,10 @@ function App() {
   const [currentPath, setCurrentPath] = useState(window.location.pathname);
 
   useEffect(() => {
+    setCurrentPath(window.location.pathname);
+  }, []);
+
+  useEffect(() => {
     const handlePopState = () => {
       setCurrentPath(window.location.pathname);
     };
