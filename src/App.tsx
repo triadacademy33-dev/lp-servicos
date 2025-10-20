@@ -9,6 +9,7 @@ import Methodology from './components/sections/Methodology';
 import CTA from './components/sections/CTA';
 import Footer from './components/layout/Footer';
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
+import TermsOfServicePage from './pages/TermsOfServicePage';
 
 function App() {
   const [currentPath, setCurrentPath] = useState(window.location.pathname);
@@ -32,6 +33,12 @@ function App() {
     window.scrollTo(0, 0);
   };
 
+  const navigateToTerms = () => {
+    window.history.pushState({}, '', '/termos-de-servico');
+    setCurrentPath('/termos-de-servico');
+    window.scrollTo(0, 0);
+  };
+
   const navigateToHome = () => {
     window.history.pushState({}, '', '/');
     setCurrentPath('/');
@@ -40,6 +47,10 @@ function App() {
 
   if (currentPath === '/politica-de-privacidade') {
     return <PrivacyPolicyPage onClose={navigateToHome} />;
+  }
+
+  if (currentPath === '/termos-de-servico') {
+    return <TermsOfServicePage onClose={navigateToHome} />;
   }
 
   return (
@@ -56,7 +67,7 @@ function App() {
         <Methodology />
         <CTA />
       </main>
-      <Footer onPrivacyPolicyClick={navigateToPrivacyPolicy} />
+      <Footer onPrivacyPolicyClick={navigateToPrivacyPolicy} onTermsClick={navigateToTerms} />
     </div>
   );
 }

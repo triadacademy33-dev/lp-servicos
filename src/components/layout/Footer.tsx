@@ -3,9 +3,10 @@ import Container from '../ui/Container';
 
 type FooterProps = {
   onPrivacyPolicyClick?: () => void;
+  onTermsClick?: () => void;
 };
 
-const Footer: React.FC<FooterProps> = ({ onPrivacyPolicyClick }) => {
+const Footer: React.FC<FooterProps> = ({ onPrivacyPolicyClick, onTermsClick }) => {
   return (
     <footer className="bg-dark-950 border-t border-dark-800/50 py-16">
       <Container>
@@ -24,9 +25,15 @@ const Footer: React.FC<FooterProps> = ({ onPrivacyPolicyClick }) => {
           <nav className="flex items-center justify-center gap-6 text-sm">
             <button
               onClick={onPrivacyPolicyClick}
-              className="text-white/60 hover:text-primary-400 transition-colors"
+              className="text-white/60 hover:text-primary-400 transition-colors underline"
             >
               Política de Privacidade
+            </button>
+            <button
+              onClick={onTermsClick}
+              className="text-white/60 hover:text-primary-400 transition-colors underline"
+            >
+              Termos de Serviço
             </button>
           </nav>
         </div>
